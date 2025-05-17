@@ -963,20 +963,6 @@ window.history.replaceState({}, document.title, clean_uri);
       }
     }
   </style>
-  <h2>❤️ Support with a Free Donation</h2>
-  <p>No payment needed — just one click helps us grow!</p>
-
-  <button onclick="donate()">✨ Click to Donate</button>
-
-  <div id="progress-container">
-    <div id="progress"></div>
-  </div>
-
-  <div id="click-count">
-    Total Clicks: <span id="count">0</span>
-    <div id="badge">Badge: None</div>
-  </div>
-  <div id="thank-you">Thank you for your support!</div>
 
   <script>
     let count = parseInt(localStorage.getItem("clickCount")) || 0;
@@ -1050,7 +1036,21 @@ window.history.replaceState({}, document.title, clean_uri);
     <div id="donate-number" class="donate-number">017xxxxxxxxx</div>
     
     <div class="popup-buttons">
-      <button id="copy-number-btn" class="send-money-btn">Send Money</button>
+        <h2>❤️ Support with a Free Donation</h2>
+  <p>No payment needed — just one click helps us grow!</p>
+
+  <button onclick="donate()">✨ Click to Donate</button>
+
+  <div id="progress-container">
+    <div id="progress"></div>
+  </div>
+
+  <div id="click-count">
+    Total Clicks: <span id="count">0</span>
+    <div id="badge">Badge: None</div>
+  </div>
+  <div id="thank-you">Thank you for your support!</div>
+
       <button id="close-popup-btn" class="close-btn">Close</button>
     </div>
   </div>
